@@ -1,0 +1,5 @@
+model,opt,mean_first_minus_second_pp,n
+jev-1.13.0,forced,22.59,3750
+jev-1.13.0,equal,0.6,3750
+jev-1.14.0,forced,12.54,3750
+jev-1.14.0,equal,0.98,3750

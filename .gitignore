@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+EMAIL.md
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
