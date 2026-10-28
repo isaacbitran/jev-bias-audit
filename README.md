@@ -56,7 +56,7 @@ Reproduce every table and chart from the committed answer cache, offline and fre
 `analyze.py` use only the standard library, `charts.py` needs matplotlib):
 
 ```bash
-git clone <this repo> && cd jevBiasAudit
+git clone https://github.com/isaacbitran/jev-bias-audit && cd jev-bias-audit
 pip install -r requirements.txt
 python3 -I run.py --dry      # rebuilds items.jsonl and reports 0 uncached questions; makes no API calls
 python3 -I analyze.py        # about 90 s; rewrites results/*.csv (byte-identical to the committed files)
@@ -90,7 +90,7 @@ USD 0.32 for the whole audit: 7.64 million input tokens in 788 requests of up to
   the direction is wrong.
 - Default endpoint settings only. More in [REPORT.md](REPORT.md#limitations).
 
-TypeSafe was given this report and time to respond before publication.
+TypeSafe was given this report and time to respond before publication, and confirmed on Oct 28, 2026 that publishing Jev evaluations and comparisons is permitted. TypeSafe did not review or endorse these results.
 
 ## Prior work
 
